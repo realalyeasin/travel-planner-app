@@ -1,0 +1,44 @@
+$font-stack: monospace;
+button {
+	transition-duration: 0.4s;
+  }
+  
+button:hover {
+	background-color: rgb(35, 126, 38); /* Green */
+	color: white;
+  }
+
+
+body{
+	background-color:rgba(144,111,213,177);
+	text-align: center;
+}
+.main-div {
+	display: flex;
+	flex-direction: column;
+}
+h1{
+	background-color:black;
+	color: white;
+	font-family: $font-stack;
+	letter-spacing:3px;
+	border:2px solid white;
+}
+.form{
+	background-color:gray;
+	border:5px solid white;
+	margin:30px;
+}
+h4{
+	background-color:white;
+	color: black;
+	font-family:monospace;
+	letter-spacing:4px;
+	border:2px solid white;
+	width:100px;
+	position:relative;
+	left:575px;
+}
+img {
+	width: 300px;
+}
